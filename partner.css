@@ -1,0 +1,100 @@
+.partner{
+padding:120px 20px;
+background:#f8fafc;
+}
+
+.partner .container{
+max-width:900px;
+margin:auto;
+}
+
+.partner h1{
+font-size:44px;
+margin-bottom:40px;
+color:var(--blue-dark);
+}
+
+.partner h2{
+font-size:28px;
+margin-top:40px;
+margin-bottom:15px;
+color:var(--blue-dark);
+}
+
+.partner p{
+font-size:18px;
+line-height:1.6;
+margin-bottom:15px;
+}
+
+.partner ul{
+padding-left:20px;
+margin-top:10px;
+}
+
+.partner li{
+font-size:18px;
+margin-bottom:10px;
+}
+
+/* Orange partner button */
+
+.btn-partner{
+background:var(--orange);
+color:white;
+
+padding:12px 26px;
+
+border-radius:10px;
+
+font-weight:600;
+
+text-decoration:none;
+
+display:inline-block;
+
+transition:all .25s ease;
+
+box-shadow:0 8px 20px rgba(247,148,29,0.3);
+}
+
+.btn-partner:hover{
+transform:translateY(-2px);
+box-shadow:0 12px 25px rgba(247,148,29,0.35);
+}
+
+
+/* Outline version */
+
+.btn-partner-outline{
+
+border:2px solid var(--orange);
+color:var(--orange);
+
+padding:10px 24px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:all .25s ease;
+
+}
+
+.btn-partner-outline:hover{
+background:var(--orange);
+color:white;
+}
+
+
+/* Bottom CTA */
+
+.partner-cta{
+
+margin-top:60px;
+
+text-align:center;
+
+}
